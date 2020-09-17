@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}DetailsProduit{% endblock %}
+
+{% block body %}
+    <h1>DetailsProduit</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ details_produit.id }}</td>
+            </tr>
+            <tr>
+                <th>Libelle</th>
+                <td>{{ details_produit.libelle }}</td>
+            </tr>
+            <tr>
+                <th>Quantite</th>
+                <td>{{ details_produit.quantite }}</td>
+            </tr>
+            <tr>
+                <th>Provenance</th>
+                <td>{{ details_produit.provenance }}</td>
+            </tr>
+            <tr>
+                <th>Montant</th>
+                <td>{{ details_produit.montant }}</td>
+            </tr>
+            <tr>
+                <th>Qtetoucher</th>
+                <td>{{ details_produit.qtetoucher }}</td>
+            </tr>
+            <tr>
+                <th>EstActif</th>
+                <td>{{ details_produit.estActif ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+                <th>Aimer</th>
+                <td>{{ details_produit.aimer ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+                <th>Observation</th>
+                <td>{{ details_produit.observation }}</td>
+            </tr>
+            <tr>
+                <th>Datecreation</th>
+                <td>{{ details_produit.datecreation ? details_produit.datecreation|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('details_produit_index') }}">back to list</a>
+
+    <a href="{{ path('details_produit_edit', {'id': details_produit.id}) }}">edit</a>
+
+    {{ include('details_produit/_delete_form.html.twig') }}
+{% endblock %}

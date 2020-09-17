@@ -1,0 +1,78 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}UserConfig{% endblock %}
+
+{% block body %}
+    <h1>UserConfig</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ user_config.id }}</td>
+            </tr>
+            <tr>
+                <th>Libelle</th>
+                <td>{{ user_config.libelle }}</td>
+            </tr>
+            <tr>
+                <th>Devise</th>
+                <td>{{ user_config.devise }}</td>
+            </tr>
+            <tr>
+                <th>Fiscalite</th>
+                <td>{{ user_config.fiscalite }}</td>
+            </tr>
+            <tr>
+                <th>Suprimer</th>
+                <td>{{ user_config.suprimer ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+                <th>EstSusper</th>
+                <td>{{ user_config.estSusper ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+                <th>Pays</th>
+                <td>{{ user_config.pays }}</td>
+            </tr>
+            <tr>
+                <th>Ville</th>
+                <td>{{ user_config.ville }}</td>
+            </tr>
+            <tr>
+                <th>Sexe</th>
+                <td>{{ user_config.sexe }}</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>{{ user_config.age }}</td>
+            </tr>
+            <tr>
+                <th>Travail</th>
+                <td>{{ user_config.travail }}</td>
+            </tr>
+            <tr>
+                <th>Niveauscolaire</th>
+                <td>{{ user_config.niveauscolaire }}</td>
+            </tr>
+            <tr>
+                <th>Telephone</th>
+                <td>{{ user_config.telephone }}</td>
+            </tr>
+            <tr>
+                <th>Piece</th>
+                <td>{{ user_config.piece }}</td>
+            </tr>
+            <tr>
+                <th>IsValide</th>
+                <td>{{ user_config.isValide ? 'Yes' : 'No' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('user_config_index') }}">back to list</a>
+
+    <a href="{{ path('user_config_edit', {'id': user_config.id}) }}">edit</a>
+
+    {{ include('user_config/_delete_form.html.twig') }}
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}DetailsProduit index{% endblock %}
+
+{% block body %}
+    <h1>DetailsProduit index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Libelle</th>
+                <th>Quantite</th>
+                <th>Provenance</th>
+                <th>Montant</th>
+                <th>Qtetoucher</th>
+                <th>EstActif</th>
+                <th>Aimer</th>
+                <th>Observation</th>
+                <th>Datecreation</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for details_produit in details_produits %}
+            <tr>
+                <td>{{ details_produit.id }}</td>
+                <td>{{ details_produit.libelle }}</td>
+                <td>{{ details_produit.quantite }}</td>
+                <td>{{ details_produit.provenance }}</td>
+                <td>{{ details_produit.montant }}</td>
+                <td>{{ details_produit.qtetoucher }}</td>
+                <td>{{ details_produit.estActif ? 'Yes' : 'No' }}</td>
+                <td>{{ details_produit.aimer ? 'Yes' : 'No' }}</td>
+                <td>{{ details_produit.observation }}</td>
+                <td>{{ details_produit.datecreation ? details_produit.datecreation|date('Y-m-d H:i:s') : '' }}</td>
+                <td>
+                    <a href="{{ path('details_produit_show', {'id': details_produit.id}) }}">show</a>
+                    <a href="{{ path('details_produit_edit', {'id': details_produit.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="11">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('details_produit_new') }}">Create new</a>
+{% endblock %}

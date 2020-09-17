@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit ConfigTypeUser{% endblock %}
+
+{% block body %}
+    <h1>Edit ConfigTypeUser</h1>
+
+    {{ include('config_type_user/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('config_type_user_index') }}">back to list</a>
+
+    {{ include('config_type_user/_delete_form.html.twig') }}
+{% endblock %}

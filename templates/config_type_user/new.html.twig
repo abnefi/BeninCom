@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New ConfigTypeUser{% endblock %}
+
+{% block body %}
+    <h1>Create new ConfigTypeUser</h1>
+
+    {{ include('config_type_user/_form.html.twig') }}
+
+    <a href="{{ path('config_type_user_index') }}">back to list</a>
+{% endblock %}

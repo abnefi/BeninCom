@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}TypeUser index{% endblock %}
+
+{% block body %}
+    <h1>TypeUser index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Libelle</th>
+                <th>Totaluser</th>
+                <th>Observations</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for type_user in type_users %}
+            <tr>
+                <td>{{ type_user.id }}</td>
+                <td>{{ type_user.libelle }}</td>
+                <td>{{ type_user.totaluser }}</td>
+                <td>{{ type_user.observations }}</td>
+                <td>
+                    <a href="{{ path('type_user_show', {'id': type_user.id}) }}">show</a>
+                    <a href="{{ path('type_user_edit', {'id': type_user.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('type_user_new') }}">Create new</a>
+{% endblock %}

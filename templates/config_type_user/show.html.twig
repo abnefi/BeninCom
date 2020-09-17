@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ConfigTypeUser{% endblock %}
+
+{% block body %}
+    <h1>ConfigTypeUser</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ config_type_user.id }}</td>
+            </tr>
+            <tr>
+                <th>Libelle</th>
+                <td>{{ config_type_user.libelle }}</td>
+            </tr>
+            <tr>
+                <th>TexteAcueil</th>
+                <td>{{ config_type_user.texteAcueil }}</td>
+            </tr>
+            <tr>
+                <th>TexteBienvenu</th>
+                <td>{{ config_type_user.texteBienvenu }}</td>
+            </tr>
+            <tr>
+                <th>TexteBonus</th>
+                <td>{{ config_type_user.texteBonus }}</td>
+            </tr>
+            <tr>
+                <th>TexteReferal</th>
+                <td>{{ config_type_user.texteReferal }}</td>
+            </tr>
+            <tr>
+                <th>TextePub</th>
+                <td>{{ config_type_user.textePub }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('config_type_user_index') }}">back to list</a>
+
+    <a href="{{ path('config_type_user_edit', {'id': config_type_user.id}) }}">edit</a>
+
+    {{ include('config_type_user/_delete_form.html.twig') }}
+{% endblock %}

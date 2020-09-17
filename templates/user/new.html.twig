@@ -1,0 +1,15 @@
+{% extends 'accueil.html.twig' %}
+
+{% block title %}New User{% endblock %}
+
+{% block block_inscription %}
+
+    {{ include('user/_form_inscription.html.twig') }}
+
+{% endblock %}
+
+{% block block_connexion %}
+
+    {{ include('user/_form_connexion.html.twig') }}
+
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}UserConfig index{% endblock %}
+
+{% block body %}
+    <h1>UserConfig index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Libelle</th>
+                <th>Devise</th>
+                <th>Fiscalite</th>
+                <th>Suprimer</th>
+                <th>EstSusper</th>
+                <th>Pays</th>
+                <th>Ville</th>
+                <th>Sexe</th>
+                <th>Age</th>
+                <th>Travail</th>
+                <th>Niveauscolaire</th>
+                <th>Telephone</th>
+                <th>Piece</th>
+                <th>IsValide</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for user_config in user_configs %}
+            <tr>
+                <td>{{ user_config.id }}</td>
+                <td>{{ user_config.libelle }}</td>
+                <td>{{ user_config.devise }}</td>
+                <td>{{ user_config.fiscalite }}</td>
+                <td>{{ user_config.suprimer ? 'Yes' : 'No' }}</td>
+                <td>{{ user_config.estSusper ? 'Yes' : 'No' }}</td>
+                <td>{{ user_config.pays }}</td>
+                <td>{{ user_config.ville }}</td>
+                <td>{{ user_config.sexe }}</td>
+                <td>{{ user_config.age }}</td>
+                <td>{{ user_config.travail }}</td>
+                <td>{{ user_config.niveauscolaire }}</td>
+                <td>{{ user_config.telephone }}</td>
+                <td>{{ user_config.piece }}</td>
+                <td>{{ user_config.isValide ? 'Yes' : 'No' }}</td>
+                <td>
+                    <a href="{{ path('user_config_show', {'id': user_config.id}) }}">show</a>
+                    <a href="{{ path('user_config_edit', {'id': user_config.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="16">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('user_config_new') }}">Create new</a>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ConfigTypeUser index{% endblock %}
+
+{% block body %}
+    <h1>ConfigTypeUser index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Libelle</th>
+                <th>TexteAcueil</th>
+                <th>TexteBienvenu</th>
+                <th>TexteBonus</th>
+                <th>TexteReferal</th>
+                <th>TextePub</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for config_type_user in config_type_users %}
+            <tr>
+                <td>{{ config_type_user.id }}</td>
+                <td>{{ config_type_user.libelle }}</td>
+                <td>{{ config_type_user.texteAcueil }}</td>
+                <td>{{ config_type_user.texteBienvenu }}</td>
+                <td>{{ config_type_user.texteBonus }}</td>
+                <td>{{ config_type_user.texteReferal }}</td>
+                <td>{{ config_type_user.textePub }}</td>
+                <td>
+                    <a href="{{ path('config_type_user_show', {'id': config_type_user.id}) }}">show</a>
+                    <a href="{{ path('config_type_user_edit', {'id': config_type_user.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="8">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('config_type_user_new') }}">Create new</a>
+{% endblock %}
