@@ -12,7 +12,7 @@ class PageUserController extends AbstractController
      */
     public function index()
     {
-        return $this->render('page_user/index.html.twig', [
+        return $this->render('page_user/monuser.html.twig', [
             'controller_name' => 'PageUserController',
         ]);
     }

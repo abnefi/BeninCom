@@ -1,5 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+@import url(css.css);
 
 html{
   height: 100%;
@@ -68,9 +68,9 @@ a:hover{
 }
 header{
   position: relative;
-  background: url(https://static.surfe.be/tpl/flatonica/img/header_illustration__1.svg) no-repeat left 9px bottom 40px,
-              url(https://static.surfe.be/tpl/flatonica/img/header_illustration__2.svg) no-repeat right 18px bottom 23px,
-              url(https://static.surfe.be/tpl/flatonica/img/header_main__bg.png) no-repeat center center / cover;
+  background: url(../images/header_illustration__1.svg) no-repeat left 9px bottom 40px,
+              url(../images/header_illustration__2.svg) no-repeat right 18px bottom 23px,
+              url(../images/header_main__bg.png) no-repeat center center / cover;
 }
 .header_top{
   padding: 43px 0px 35px 0px;
@@ -590,13 +590,13 @@ h3{
   background: #536EC7;
 }
 .advertising-types_item:nth-child(1){
-  background-image: url(https://static.surfe.be/tpl/flatonica/img/advertising-types_item-bg-1.svg);
+  background-image: url(../images/advertising-types_item-bg-1.svg);
 }
 .advertising-types_item:nth-child(2){
-  background-image: url(https://static.surfe.be/tpl/flatonica/img/advertising-types_item-bg-2.svg);
+  background-image: url(../images/advertising-types_item-bg-2.svg);
 }
 .advertising-types_item:nth-child(3){
-  background-image: url(https://static.surfe.be/tpl/flatonica/img/advertising-types_item-bg-3.svg);
+  background-image: url(../images/advertising-types_item-bg-3.svg);
 }
 .potential-customers{
   padding-bottom: 30px;
@@ -605,7 +605,7 @@ h3{
   background-color: transparent;
   max-width: 1350px;
   padding: 70px 110px;
-  background-image: url(https://static.surfe.be/tpl/flatonica/img/potential-customers_bg.png);
+  background-image: url(../images/potential-customers_bg.png);
   position: relative;
   background-repeat: no-repeat;
   display: -webkit-flex;
@@ -665,7 +665,7 @@ h3{
   background-color: transparent;
   max-width: 1350px;
   padding: 45px 140px 58px 140px;
-  background-image: url(https://static.surfe.be/tpl/flatonica/img/target_bg.png);
+  background-image: url(../images/target_bg.png);
   position: relative;
   display: -webkit-flex;
   display: -moz-flex;
@@ -740,7 +740,7 @@ h3{
   background: red;
   border-radius: 8px;
   overflow: hidden;
-  background: url(https://static.surfe.be/tpl/flatonica/img/price_calculator__bg.png) no-repeat center center /cover;
+  background: url(../images/price_calculator__bg.png) no-repeat center center /cover;
 }
 .price_calculator__main{
   padding: 32px;
@@ -1144,7 +1144,7 @@ textarea:focus {
 }
 .advantages{
   background-color: #152355;
-  background-image: url(https://static.surfe.be/world.png?2);
+  background-image: url(../images/world.png?2);
   background-position: center;
   background-repeat: no-repeat;
   padding: 65px 0px 100px 0px;
@@ -1221,7 +1221,7 @@ textarea:focus {
   max-width: 1350px;
   padding: 80px 0;
   background-color: #152355;
-  background-image: url(https://static.surfe.be/world.png?2);
+  background-image: url(../images/world.png?2);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1284,7 +1284,7 @@ footer{
   position: relative;
   background: #152355;
   border-radius: 24px 24px 0 0;
-  background-image: url(https://static.surfe.be/tpl/flatonica2/img/footer_bg.svg);
+  background-image: url(../images/footer_bg.svg);
   background-repeat: no-repeat;
   background-position: left center;
   max-width: 1300px;
@@ -1608,7 +1608,7 @@ footer .container{
   background-color: transparent;
   max-width: 1350px;
   padding: 55px 155px 55px 120px;
-  background-image: url(https://static.surfe.be/tpl/flatonica/img/find-client_bg.png);
+  background-image: url(../images/find-client_bg.png);
   background-repeat: no-repeat;
   position: relative;
   display: -webkit-flex;
@@ -2033,7 +2033,7 @@ nav .arrow-btn{
   background: #3B83E5;
   border: 1px solid #3B83E5;
   background-size: 70%;
-  background-image: url(https://static.surfe.be/tpl/flatonica/img/check-line.svg);
+  background-image: url(../images/check-line.svg);
   background-repeat: no-repeat;
   background-position: center;
 }

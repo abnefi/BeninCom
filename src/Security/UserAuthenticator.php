@@ -79,7 +79,6 @@ class UserAuthenticator extends AbstractFormLoginAuthenticator
         // If there are no credentials to check, you can just return true
 
         if ($user->getPassword() === $credentials['password']) {
-
             return true;
         }
         //throw new \Exception('TODO: check the credentials inside '.__FILE__);

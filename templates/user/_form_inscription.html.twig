@@ -23,6 +23,8 @@
     <div class="popup_form__input field-register-form-password">
         {{ form_widget(form.password, {'attr': {'class': 'form-control','placeholder':'Mot de passe'}}) }}
         <span class="invalid-feedback"></span>
+        {{ form_widget(form.confirm_password, {'attr': {'class': 'form-control','placeholder':'Mot de passe'}}) }}
+        <span class="invalid-feedback"></span>
         <div class="popup_form__input-ico">
             <svg width="14" height="17" viewBox="0 0 14 17" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2222 5.44444H11.6667V4.66667C11.6667 2.08934 9.57733 0 7 0C4.42267 0 2.33333 2.08934 2.33333 4.66667V5.44444H0.777778C0.348223 5.44444 0 5.79267 0 6.22222V15.5556C0 15.9851 0.348223 16.3333 0.777778 16.3333H13.2222C13.6518 16.3333 14 15.9851 14 15.5556V6.22222C14 5.79267 13.6518 5.44444 13.2222 5.44444ZM1.55556 14.7778V7H12.4444V14.7778H1.55556ZM7.77778 10.1111V11.6667H6.22222V10.1111H7.77778ZM4.66667 10.1111H3.11111V11.6667H4.66667V10.1111ZM9.33333 11.6667V10.1111H10.8889V11.6667H9.33333ZM10.1111 4.66667V5.44444H3.88889V4.66667C3.88889 2.94845 5.28178 1.55556 7 1.55556C8.71822 1.55556 10.1111 2.94845 10.1111 4.66667Z"></path>

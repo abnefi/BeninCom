@@ -8,11 +8,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class PageAdvertiserController extends AbstractController
 {
     /**
-     * @Route("/page/advertiser", name="page_advertiser")
+     * @Route("/page/entreprise", name="page_entreprise")
      */
     public function index()
     {
-        return $this->render('page_advertiser/index.html.twig', [
+        return $this->render('page_advertiser/entreprise.html.twig', [
             'controller_name' => 'PageAdvertiserController',
         ]);
     }

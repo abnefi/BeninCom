@@ -7,6 +7,29 @@
         Connectez-vous à ComBénin
     </div>
 
+    <style>
+        .login_btn
+        {
+            background: #488FF0;
+            border-radius: 8px;
+            width: 150px;
+            line-height: 45px;
+            font-weight: bold;
+            font-size: 14px;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #F3F3F3;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+    </style>
+
 
 <form method="post" class="popup_form">
         {% if error %}
@@ -89,7 +112,9 @@
         </button>
     </form> #}
     <div class="popup_wite__btn popup-singup_btn" tabindex="4">
+        <a href="{{ path('user_new') }}" style="text-decoration: none"}>
         Créer un compte
+        </a>
     </div>
     <div class="popup_social">
         <div class="popup_social__title">
@@ -98,12 +123,12 @@
         <ul class="popup_social__list">
             <li>
                 <a href="/user/auth?authclient=vkontakte">
-                    <img src="https://static.surfe.be/tpl/flatonica/img/vk.svg" alt="ico">
+                    <img src="{{ asset('images/vk.svg') }}" alt="ico">
                 </a>
             </li>
             <li>
                 <a href="/user/auth?authclient=google">
-                    <img src="https://static.surfe.be/tpl/flatonica/img/google.svg" alt="ico">
+                    <img src="{{ asset('images/google.svg') }}" alt="ico">
                 </a>
             </li>
         </ul>

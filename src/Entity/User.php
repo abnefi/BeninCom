@@ -9,12 +9,12 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
- *
- *
- * @UniqueEntity(fields={"username"}, message="There is already an account with this username")
+ * @UniqueEntity(fields={"email"}, message="Un compte est deja associe à cette adresse email")
+ * @UniqueEntity(fields={"username"}, message="Un compte est deja associe à cette username")
  */
 class User implements UserInterface
 {
@@ -27,7 +27,7 @@ class User implements UserInterface
 
     /**
      * @ORM\Column(type="string", length=180, unique=true)
-     
+
      */
     private $email;
 
@@ -36,22 +36,29 @@ class User implements UserInterface
      */
     private $roles = [];
 
+
     /**
      * @var string The hashed password
      * @ORM\Column(type="string")
-     
+     * @Assert\Length (min="8", minMessage="Votre mot de passe doit fait au minimum 8 caracteres")
      */
     private $password;
 
     /**
-     * @ORM\Column(type="string", length=255, unique=true)
-     
+     *
+     * @Assert\EqualTo(propertyPath="password", message="Vos mot de passe ne sont pas identique")
+     */
+    private $confirm_password;
+
+    /**
+     * @ORM\Column(type="string", length=255, unique=true,unique=true)
+     * @Assert\Length (min="4", minMessage="Votre username doit fait au minimum 4 caracteres")
      */
     private $username;
 
     /**
      * @ORM\Column(type="string", length=255)
-     
+
      */
     private $firsname;
 
@@ -64,7 +71,7 @@ class User implements UserInterface
 
     /**
      * @ORM\Column(type="boolean")
-
+     * @Assert\IsTrue(message="Veuiller accepter les conditions d'utilisation")
      */
     private $accorder;
 
@@ -355,5 +362,17 @@ class User implements UserInterface
     public function getIsVerified(): ?bool
     {
         return $this->isVerified;
+    }
+
+    public function getConfirmPassword(): ?string
+    {
+        return $this->confirm_password;
+    }
+
+    public function setConfirmPassword(string $confirm_password): self
+    {
+        $this->confirm_password = $confirm_password;
+
+        return $this;
     }
 }
