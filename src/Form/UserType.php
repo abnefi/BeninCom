@@ -5,6 +5,7 @@ namespace App\Form;
 use App\Entity\TypeUser;
 use App\Entity\User;
 use Doctrine\ORM\EntityManagerInterface;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
@@ -60,14 +61,16 @@ class UserType extends AbstractType
                     'row_attr' => ['id' => 'popup_form__agree1'],
                     'attr' =>['require' =>true]
                 ])
-            ->add('refTypeuser', ChoiceType::class,
-                [
-                    'choices'=>[
-                        'User'=>$typeuser1,
-                        'Entreprise'=>$typeuser2,
-                    ],
-                    'attr' =>['require' =>true]
-                ])
+
+            ->add('refTypeuser', EntityType::class, [
+                'class' => TypeUser::class,
+                'choice_label' => 'libelle',
+                'required' => true,
+                'attr' => [
+                    'class' => 'form-control',
+                ],
+            ])
+
             ->add('enregistrer',SubmitType::class,
                 [
                     'label'=>'Créer mon compte',

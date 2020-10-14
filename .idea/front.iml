@@ -100,8 +100,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="boursika" />
-    <orderEntry type="module" module-name="backend_esv" />
-    <orderEntry type="module" module-name="backend_esv" />
+    <orderEntry type="module" module-name="facturation_app_client" />
+    <orderEntry type="module" module-name="facturation_app_client" />
   </component>
 </module>

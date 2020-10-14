@@ -51,7 +51,7 @@ class User implements UserInterface
     private $confirm_password;
 
     /**
-     * @ORM\Column(type="string", length=255, unique=true,unique=true)
+     * @ORM\Column(type="string", length=255, unique=true)
      * @Assert\Length (min="4", minMessage="Votre username doit fait au minimum 4 caracteres")
      */
     private $username;

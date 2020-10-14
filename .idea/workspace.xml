@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,67 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1420604e-b701-42cb-b88b-6147ac769083" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/front.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/ajax/addFieldDemandeCompte.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../boursika/web/compteIcone/club_icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../boursika/web/compteIcone/comptejoin_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../boursika/web/compteIcone/man_icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../boursika/web/compteIcone/personnemoral_icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../boursika/web/compteIcone/woman_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/.idea/backend_esv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/.idea/backend_esv.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/migrations/Version20200915161947.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/src/Controller/OrdreAvisAnnonceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/src/Controller/OrdreAvisAnnonceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/src/Service/EsvDetachementService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/src/Service/EsvDetachementService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/src/Service/EsvPaiementService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/src/Service/EsvPaiementService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/src/Service/Esv_Precalcul_Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/src/Service/Esv_Precalcul_Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../backend_esv/templates/block/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../backend_esv/templates/block/menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/activationListe.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/activationListe.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/ajax/addFieldPieceCompte.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/ajax/addFieldPieceCompte.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/ajax/searchclient.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/ajax/searchclient.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/combinaisonsignature/combinaison.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/combinaisonsignature/combinaison.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/create.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/demandemiseajour/listeDemandeAvaliderN1.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/demandemiseajour/listeDemandeAvaliderN1.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/formDemandeEditCompte.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/formDemandeEditCompte.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/formDemandeEditPieceCompte.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/formDemandeEditPieceCompte.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/formEditCompte.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/formEditCompte.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/includes/modalInfoNatureCompte.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/includes/modalInfoNatureCompte.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/rattacherpiece.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/rattacherpiece.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/compteclient/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/evenementsurvaleur/annoncedividende.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/evenementsurvaleur/annoncedividende.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/evenementsurvaleur/listeCoupons.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/evenementsurvaleur/listeCoupons.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/evenementsurvaleur/ordreavisannonce.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/evenementsurvaleur/ordreavisannonce.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/ordre/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/ordre/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/ordreAgence/ordreAgence.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/ordreAgence/ordreAgence.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/personnes/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/personnes/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/pieces/listeTypePieceCompte.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/pieces/listeTypePieceCompte.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/pieces/listeTypePiecePersonne.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/pieces/listeTypePiecePersonne.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/societe/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/societe/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/app/Resources/views/societe/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/app/Resources/views/societe/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/BourseBundle/Controller/OrdreAgenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/BourseBundle/Controller/OrdreAgenceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/BourseBundle/Controller/OrdreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/BourseBundle/Controller/OrdreController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/ClientBundle/Controller/Ajax/AjaxCompteClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/ClientBundle/Controller/Ajax/AjaxCompteClientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/ClientBundle/Controller/CompteClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/ClientBundle/Controller/CompteClientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/ClientBundle/Controller/DemandeMiseAjourController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/ClientBundle/Controller/DemandeMiseAjourController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/ConfigBundle/Controller/SocieteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/ConfigBundle/Controller/SocieteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/ConfigBundle/Entity/Societe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/ConfigBundle/Entity/Societe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/ConfigBundle/Form/SocieteType.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/ConfigBundle/Form/SocieteType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/ESVBundle/Controller/AvisAnnonceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/ESVBundle/Controller/AvisAnnonceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/ESVBundle/Repository/TypeAnnonceRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/ESVBundle/Repository/TypeAnnonceRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/src/PersonneBundle/Controller/PersonnesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/src/PersonneBundle/Controller/PersonnesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/web/front/js/CompteClient/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/web/front/js/CompteClient/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/web/front/js/CompteClient/ordreagence.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/web/front/js/CompteClient/ordreagence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../boursika/web/front/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../boursika/web/front/js/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/front.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/front.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base_user_entreprise.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_user_entreprise.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page_advertiser/entreprise.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page_advertiser/entreprise.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page_user/monuser.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page_user/monuser.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../facturation_app_client/app/Resources/views/clientfacturevente/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../facturation_app_client/app/Resources/views/clientfacturevente/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../facturation_app_client/web/frontend/js/clientfacture/detailFormFacture.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../facturation_app_client/web/frontend/js/clientfacture/detailFormFacture.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../facturation_app_client" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -209,16 +160,16 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../facturation_app_client" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\facturation_app_client\web\frontend\js\clientfacture" />
       <recent name="C:\laragon\www\abedprojets\combenin\front\templates" />
       <recent name="C:\laragon\www\abedprojets\combenin\front\templates\page_user" />
       <recent name="C:\laragon\www\abedprojets\combenin\front\templates\page_advertiser" />
       <recent name="C:\laragon\www\abedprojets\combenin\front\src\Repository" />
-      <recent name="C:\laragon\www\abedprojets\combenin\front\src\Entity" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -238,6 +189,16 @@
       <workItem from="1600675263235" duration="299000" />
       <workItem from="1600675889335" duration="24576000" />
       <workItem from="1600711347563" duration="445000" />
+      <workItem from="1600775868002" duration="10418000" />
+      <workItem from="1600846837726" duration="7055000" />
+      <workItem from="1600934701854" duration="23767000" />
+      <workItem from="1601021925921" duration="23367000" />
+      <workItem from="1601278181473" duration="6733000" />
+      <workItem from="1601289163760" duration="14307000" />
+      <workItem from="1601366444068" duration="2979000" />
+      <workItem from="1601370505316" duration="19393000" />
+      <workItem from="1601394354678" duration="10472000" />
+      <workItem from="1601452555662" duration="1939000" />
     </task>
     <servers />
   </component>
@@ -261,10 +222,15 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860@0.0.1440.860" timestamp="1600679626074" />
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1600676143399">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="474" y="157" key="FileChooserDialogImpl" timestamp="1601455542334">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600676143399" />
+    <state x="474" y="157" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601455542334" />
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600785279888" />
+    <state x="402" y="87" key="NewPhpClassDialog" timestamp="1600959339928">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1600959339928" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1600357326865">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -273,9 +239,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="914" height="446" key="SwitcherDM/0.0.1440.860@0.0.1440.860" timestamp="1600696057325" />
-    <state x="519" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1600686694892">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="390" y="0" width="635" height="728" key="find.popup" timestamp="1601312159763">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="519" y="319" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600686694892" />
+    <state x="390" y="0" width="635" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601312159763" />
+    <state x="463" y="8" width="672" height="672" key="search.everywhere.popup" timestamp="1601390934449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="8" width="672" height="672" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601390934449" />
+    <state x="488" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600782274987" />
   </component>
 </project>

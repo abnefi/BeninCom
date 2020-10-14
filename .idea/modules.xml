@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../backend_esv/.idea/backend_esv.iml" filepath="$PROJECT_DIR$/../../../backend_esv/.idea/backend_esv.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../boursika/.idea/boursika.iml" filepath="$PROJECT_DIR$/../../../boursika/.idea/boursika.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../facturation_app_client/.idea/facturation_app_client.iml" filepath="$PROJECT_DIR$/../../../facturation_app_client/.idea/facturation_app_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/front.iml" filepath="$PROJECT_DIR$/.idea/front.iml" />
     </modules>
   </component>
