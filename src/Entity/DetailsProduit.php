@@ -59,7 +59,7 @@ class DetailsProduit
     private $observation;
 
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="datetime", nullable=true)
      */
     private $datecreation;
 
@@ -68,6 +68,40 @@ class DetailsProduit
      * @ORM\JoinColumn(nullable=false)
      */
     private $refProduit;
+
+
+    /**
+     * @ORM\Column(type="boolean")
+     */
+    private $estSupprimer;
+
+    /**
+     *
+     * @ORM\Column(name="created", type="datetime",nullable=true)
+     */
+
+    private $created;
+
+
+    /**
+     * @var string
+     * @ORM\Column(name="createdBy", type="string", length=255, nullable=true)
+     */
+    private $createdBy;
+
+    /**
+     *
+     * @ORM\Column(name="updateAt", type="datetime",nullable=true)
+     */
+
+    private $updateAt;
+
+    /**
+     * @var string
+     * @ORM\Column(name="updateBy", type="string", length=255, nullable=true)
+     */
+    private $updateBy;
+
 
     public function getId(): ?int
     {

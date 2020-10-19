@@ -37,7 +37,7 @@ class Produit
     private $lien;
 
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="datetime", nullable=true)
      *
      */
     private $created;
@@ -58,6 +58,32 @@ class Produit
      * @ORM\OneToOne(targetEntity=DetailsProduit::class, mappedBy="refProduit", cascade={"persist", "remove"})
      */
     private $refDetaisproduit;
+
+
+    /**
+     * @ORM\Column(type="boolean")
+     */
+    private $estSupprimer;
+
+    /**
+     * @var string
+     * @ORM\Column(name="createdBy", type="string", length=255, nullable=true)
+     */
+    private $createdBy;
+
+    /**
+     *
+     * @ORM\Column(name="updateAt", type="datetime",nullable=true)
+     */
+
+    private $updateAt;
+
+    /**
+     * @var string
+     * @ORM\Column(name="updateBy", type="string", length=255, nullable=true)
+     */
+    private $updateBy;
+
 
     public function __construct()
     {

@@ -46,7 +46,7 @@ class UserConfig
 
 
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="datetime", nullable=true)
      *
      */
     private $created;
@@ -102,6 +102,25 @@ class UserConfig
      * @ORM\Column(type="boolean")
      */
     private $isValide;
+
+    /**
+     * @var string
+     * @ORM\Column(name="createdBy", type="string", length=255, nullable=true)
+     */
+    private $createdBy;
+
+    /**
+     *
+     * @ORM\Column(name="updateAt", type="datetime",nullable=true)
+     */
+
+    private $updateAt;
+
+    /**
+     * @var string
+     * @ORM\Column(name="updateBy", type="string", length=255, nullable=true)
+     */
+    private $updateBy;
 
 
     public function getId(): ?int
