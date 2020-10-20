@@ -23,13 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1420604e-b701-42cb-b88b-6147ac769083" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/front.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/front.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base_user_entreprise.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_user_entreprise.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/page_advertiser/entreprise.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page_advertiser/entreprise.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/page_user/monuser.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page_user/monuser.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../facturation_app_client/app/Resources/views/clientfacturevente/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../facturation_app_client/app/Resources/views/clientfacturevente/new.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../facturation_app_client/web/frontend/js/clientfacture/detailFormFacture.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../facturation_app_client/web/frontend/js/clientfacture/detailFormFacture.js" afterDir="false" />
     </list>
@@ -50,7 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../facturation_app_client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
