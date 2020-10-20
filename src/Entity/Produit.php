@@ -59,6 +59,33 @@ class Produit
      */
     private $refDetaisproduit;
 
+
+    /**
+     * @ORM\Column(name="supprimmer", type="boolean")
+     */
+    private $estSupprimer;
+
+    /**
+     * @var string
+     * @ORM\Column(name="createdBy", type="string", length=255, nullable=true)
+     */
+    private $createdBy;
+
+    /**
+     *
+     * @ORM\Column(name="updateAt", type="datetime",nullable=true)
+     */
+
+    private $updateAt;
+
+    /**
+     * @var string
+     * @ORM\Column(name="updateBy", type="string", length=255, nullable=true)
+     */
+    private $updateBy;
+
+
+
     public function __construct()
     {
         $this->refArticles = new ArrayCollection();
@@ -190,6 +217,54 @@ class Produit
     public function setCreated(\DateTimeInterface $created): self
     {
         $this->created = $created;
+
+        return $this;
+    }
+
+    public function getEstSupprimer(): ?bool
+    {
+        return $this->estSupprimer;
+    }
+
+    public function setEstSupprimer(bool $estSupprimer): self
+    {
+        $this->estSupprimer = $estSupprimer;
+
+        return $this;
+    }
+
+    public function getCreatedBy(): ?string
+    {
+        return $this->createdBy;
+    }
+
+    public function setCreatedBy(?string $createdBy): self
+    {
+        $this->createdBy = $createdBy;
+
+        return $this;
+    }
+
+    public function getUpdateAt(): ?\DateTimeInterface
+    {
+        return $this->updateAt;
+    }
+
+    public function setUpdateAt(?\DateTimeInterface $updateAt): self
+    {
+        $this->updateAt = $updateAt;
+
+        return $this;
+    }
+
+    public function getUpdateBy(): ?string
+    {
+        return $this->updateBy;
+    }
+
+    public function setUpdateBy(?string $updateBy): self
+    {
+        $this->updateBy = $updateBy;
 
         return $this;
     }

@@ -7,6 +7,7 @@ use App\Repository\UserRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -68,6 +69,11 @@ class User implements UserInterface
      */
     private $lasname;
 
+    /**
+     * @Gedmo\Slug(fields={"firsname","lasname","created"})
+     * @ORM\Column(length=255, unique=true)
+     */
+    private $slug;
 
     /**
      * @ORM\Column(type="boolean")
@@ -103,12 +109,48 @@ class User implements UserInterface
     /**
      * @ORM\Column(type="boolean")
      */
-    private $isVerified = false;
+    private $isVerified;
+
+
+    /**
+     * @ORM\Column(name="supprimmer", type="boolean")
+     */
+    private $estSupprimer;
+
+    /**
+     *
+     * @ORM\Column(name="created", type="datetime",nullable=true)
+     */
+
+    private $created;
+
+
+    /**
+     * @var string
+     * @ORM\Column(name="createdBy", type="string", length=255, nullable=true)
+     */
+    private $createdBy;
+
+    /**
+     *
+     * @ORM\Column(name="updateAt", type="datetime",nullable=true)
+     */
+
+    private $updateAt;
+
+    /**
+     * @var string
+     * @ORM\Column(name="updateBy", type="string", length=255, nullable=true)
+     */
+    private $updateBy;
+
+
 
     public function __construct()
     {
         $this->refPaiements = new ArrayCollection();
         $this->refArticles = new ArrayCollection();
+        $this->isVerified = false;
     }
 
     public function getId(): ?int
@@ -372,6 +414,78 @@ class User implements UserInterface
     public function setConfirmPassword(string $confirm_password): self
     {
         $this->confirm_password = $confirm_password;
+
+        return $this;
+    }
+
+    public function getSlug(): ?string
+    {
+        return $this->slug;
+    }
+
+    public function setSlug(string $slug): self
+    {
+        $this->slug = $slug;
+
+        return $this;
+    }
+
+    public function getEstSupprimer(): ?bool
+    {
+        return $this->estSupprimer;
+    }
+
+    public function setEstSupprimer(bool $estSupprimer): self
+    {
+        $this->estSupprimer = $estSupprimer;
+
+        return $this;
+    }
+
+    public function getCreated(): ?\DateTimeInterface
+    {
+        return $this->created;
+    }
+
+    public function setCreated(?\DateTimeInterface $created): self
+    {
+        $this->created = $created;
+
+        return $this;
+    }
+
+    public function getCreatedBy(): ?string
+    {
+        return $this->createdBy;
+    }
+
+    public function setCreatedBy(?string $createdBy): self
+    {
+        $this->createdBy = $createdBy;
+
+        return $this;
+    }
+
+    public function getUpdateAt(): ?\DateTimeInterface
+    {
+        return $this->updateAt;
+    }
+
+    public function setUpdateAt(?\DateTimeInterface $updateAt): self
+    {
+        $this->updateAt = $updateAt;
+
+        return $this;
+    }
+
+    public function getUpdateBy(): ?string
+    {
+        return $this->updateBy;
+    }
+
+    public function setUpdateBy(?string $updateBy): self
+    {
+        $this->updateBy = $updateBy;
 
         return $this;
     }

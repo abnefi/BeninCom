@@ -23,14 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1420604e-b701-42cb-b88b-6147ac769083" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/front.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/front.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Compte.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Compte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/ConfigTypeUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ConfigTypeUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/DetailsProduit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/DetailsProduit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Erreur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Erreur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Paiement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Paiement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Produit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/TypeUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TypeUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/UserConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/UserConfig.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
