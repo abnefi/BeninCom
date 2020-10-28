@@ -24,16 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1420604e-b701-42cb-b88b-6147ac769083" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Compte.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Compte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/ConfigTypeUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ConfigTypeUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/DetailsProduit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/DetailsProduit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Erreur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Erreur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Paiement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Paiement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Produit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/TypeUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/TypeUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/UserConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/UserConfig.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,9 +215,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600679626074">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="427" y="157" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603199408457">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="427" y="157" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603199408457" />
     <state x="450" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860@0.0.1440.860" timestamp="1600679626074" />
     <state x="474" y="157" key="FileChooserDialogImpl" timestamp="1601455542334">
       <screen x="0" y="0" width="1366" height="728" />

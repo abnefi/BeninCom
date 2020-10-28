@@ -70,7 +70,7 @@ class User implements UserInterface
     private $lasname;
 
     /**
-     * @Gedmo\Slug(fields={"firsname","lasname","created"})
+     * @Gedmo\Slug(fields={"username","firsname","lasname","created"})
      * @ORM\Column(length=255, unique=true)
      */
     private $slug;
@@ -151,6 +151,7 @@ class User implements UserInterface
         $this->refPaiements = new ArrayCollection();
         $this->refArticles = new ArrayCollection();
         $this->isVerified = false;
+        $this->created = new \DateTime();
     }
 
     public function getId(): ?int

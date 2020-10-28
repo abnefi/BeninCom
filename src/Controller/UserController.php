@@ -52,9 +52,12 @@ class UserController extends AbstractController
         if ($form->isSubmitted() && $form->isValid())
         {
             $hash = $encoder->encodePassword($user, $user->getPassword());
+
             $user->setPassword($hash);
             $user->setFirsname("user");
             $user->setLasname("nameuser");
+            $user->setEstSupprimer(0);
+            $user->setCreatedBy($user->getUsername());
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($user);
             $entityManager->flush();
